@@ -1,0 +1,8 @@
+print("pizza__10gel")
+print("burger__8gel")
+print("hot-dog__7gel")
+print("fries__5gel")
+print("cola__2gel")
+print("ice cream__8gel")    
+print("salad__10gel")
+print("sandwich__5gel")
