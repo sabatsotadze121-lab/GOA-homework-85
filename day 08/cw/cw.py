@@ -10,3 +10,6 @@ elif num > 10:
     print("ჩაიჭერი")
 else:
     print("მეორედ აქ აღარ მოხვიდე")
+
+
+#test commit
