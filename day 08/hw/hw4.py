@@ -8,7 +8,7 @@
 
 
 age = int(input("Enter your age: "))
-student = input("Are you a student? ")
+student = int(input("Are you a student? "))
 
 
 if age < 12 or age > 65:
