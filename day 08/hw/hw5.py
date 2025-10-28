@@ -9,7 +9,7 @@
 
 
 username = input("შეიყვანეთ მომხმარებლის სახელი: ")
-password = input("შეიყვანეთ პაროლი: ")
+password = int(input("შეიყვანეთ პაროლი: "))
 
 
 if username == "admin" and password == "superSecretPassword":
