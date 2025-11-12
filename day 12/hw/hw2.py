@@ -1,5 +1,4 @@
-# 2)for loop ის დახმარებით ტერმინალში 
-# გამოიტანეთ თქვენი სახელი 25 ჯერ
+# 2)for loop ის დახმარებით გამოიტანეთ რიცხვები 0 იდან 100 მდე
 
-for i in range(25):
-    print("saba tsotadze")
+for i in range (100):
+    print(i)

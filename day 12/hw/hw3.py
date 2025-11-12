@@ -1,2 +1,4 @@
-for i in range(10,50):
+# 3)for loop ის დახმარებით გამოიტანეთ რიცხვები 0 იდან 40 ის ჩათვლით
+
+for i in  range (41):
     print(i)
