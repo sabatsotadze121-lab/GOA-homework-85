@@ -3,14 +3,14 @@
 
 
 
-num = int(input("შეიყვანეთ რიცხვი: "))
+number = int(input("შეიყვანეთ რიცხვი: "))
 
-if num < 1:
+if number < 1:
     print(" შეიყვანეთ 1 ან მეტი."); 
 else:
     total = 0
     i = 1
-    while i <= num:
+    while i <= number:
         total = total + i
         i = i + 1
     print(total)
