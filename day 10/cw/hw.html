@@ -1,0 +1,63 @@
+<!-- 1)შექმენით გოას საიტზე რეგისტრაციის ფორმა , სადაც მომხმარებელი შეიყვანს სახელს,  -->
+<!-- გვარს ,მეილს ,ასაკს ,უნდა აირჩიოს GENDERMALE FEMALE. გამოიყენეთ -->
+<!-- checkbox ტიპის ინფუთი რომლითაც აირჩევთ გოას რამდენიმე კურსს , -->
+<!-- თუ რომელზე გინდათ სწავლა,ბოლოს დაამატეთ submit ტიპის ინფუთი  -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>GOA Registration Form</title>
+</head>
+<body>
+
+    <h1>GOA Registration Form</h1>
+
+    <form>
+
+        
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" >
+        <br><br>
+
+        
+        <label for="name">გვარი:</label>
+        <input type="text" id="lname" >
+        <br><br>
+
+        
+        <label for="email">მეილი:</label>
+        <input type="email" id="email" >
+        <br><br>
+
+        
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" >
+        <br><br>
+
+        
+        <p>Gender:</p>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        
+        <p>მიუთითე რომელი GOA კურსები გინდა:</p>
+
+        <input type="checkbox" id="python" name="course" value="python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="web" name="course" value="web">
+        <label for="web">Web Development</label><br>
+
+        <input type="checkbox" id="design" name="course" value="design">
+        <label for="design">Graphic Design</label><br>
+
+    </form>
+
+</body>
+</html>
