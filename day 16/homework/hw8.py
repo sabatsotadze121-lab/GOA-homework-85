@@ -15,7 +15,9 @@ user_password = input("შეიყვანე პაროლი: ")
 while user_password != my_password:
     user_password = input("არასწორია სცადე თავიდან: ")
 print("სწორია გაარტყი")
+
     
 
         
+    
     
