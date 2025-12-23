@@ -1,0 +1,9 @@
+# 12)მოცემულია სია:
+# letters = ["a", "b", "c", "d", "e", "f" , "g" , "o"]
+# მინუს ინდექსებით მოახდინე კონკატინაცია და ააწყვე სიტყვა goga
+
+letters = ["a", "b", "c", "d", "e", "f" , "g" , "o"]
+print(letters[-2])
+print(letters[-1])
+print(letters[-2])
+print(letters[-8])
