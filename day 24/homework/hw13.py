@@ -5,7 +5,10 @@
 
 # მოახდინე სლაისინგი --> start იყოს პირველი რიცხვი და end იყოს მეორე შემოტანილი რიცხვი
 
+start = int(print("შემოიტანეთ რიცხვი:"))
+finish= int(print("შემოიტანეთ მეორე რიცხვი"))
+
 
 name = "ჰიდროელექტროსადგური"
-slice = name[12:19]
+slice = name[start:finish]
 print(slice)
