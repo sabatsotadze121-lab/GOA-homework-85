@@ -1,0 +1,13 @@
+h1{
+    size: 50px;
+    color: blue;
+    text-align: center;
+}
+
+
+p{
+    color: gray;
+    text-align: right;
+    border: 10px yellow solid;
+    background-color: blue;
+}
