@@ -9,4 +9,4 @@ for i in range(count):
     nums.append(int(input("შეიყვანე რიცხვი: ")))
 
 average = sum(nums) / len(nums)
-print("საშუალო:", average)
+print("საშუალო-" , average)

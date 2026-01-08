@@ -10,7 +10,7 @@ total = 0
 while total <= 100:
     num = int(input("შეიყვანე რიცხვი: "))
     nums.append(num)
-    total += num
+    total = total + num
 
-print("სია:" , nums)
-print("ჯამი:" , total)
+print("სია - " , nums)
+print("ჯამი - " , total)

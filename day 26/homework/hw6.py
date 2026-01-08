@@ -14,5 +14,5 @@ for i in range(count):
     else:
         negative.append(num)
 
-print("დადებითი:" , positive)
-print("უარყოფითი:" , negative)
+print("დადებითი - " , positive)
+print("უარყოფითი - " , negative)

@@ -1,0 +1,23 @@
+p{
+    text-align:right;
+    color: red; 
+    background-color: orange 
+    ; size: 20px; 
+    border: 20px green solid;
+}
+
+h1{
+    text-align:right;
+     color: rgb(178, 178, 178); 
+     background-color: rgb(69, 131, 239) ; 
+     size: 20px;
+    border: 20px rgb(182, 202, 27) solid;
+}
+
+button{
+    text-align:right;
+    color: rgb(197, 32, 215); 
+    background-color: rgb(71, 158, 91) ; 
+    size: 20px; 
+    border: 20px rgb(100, 6, 215) solid;
+}
