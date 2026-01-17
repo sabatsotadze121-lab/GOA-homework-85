@@ -3,7 +3,7 @@
 while True:
     password = input("შეიყვანეთ პაროლი: ")
     if len(password) >= 8:
-        print("პაროლი საკმარისად ძლიერია")
+        print("პაროლი ძლიერია")
         break
     else:
-        print("პაროლი სუსტი სცადეთ თავიდან")
+        print("სცადეთ თავიდან")
