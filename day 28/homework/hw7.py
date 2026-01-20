@@ -3,14 +3,14 @@
 num = int(input("შეიყვანე რიცხვი 1-5 : "))
 
 if num == 1:
-    print("ერთი")
+    print("1 == ერთი")
 elif num == 2:
-    print("ორი")
+    print("2 == ორი")
 elif num == 3:
-    print("სამი")
+    print("3 == სამი")
 elif num == 4:
-    print("ოთხი")
+    print("4 == ოთხი")
 elif num == 5:
-    print("ხუთი")
+    print("5 == ხუთი")
 else:
     print("არასწორი რიცხვი")
