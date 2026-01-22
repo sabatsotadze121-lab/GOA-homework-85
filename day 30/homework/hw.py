@@ -1,14 +1,14 @@
 # 1) შექმენით სახელებით სავსე სია, თუ სიტყვის ყველა ასო არის პატარა და პირველი ასო არის d, მაშინ ახალ სიაში ჩაამატეთ სახელი "NIKA", თუ სიტყვის ყველა ასო არის დიდი ან იწყება ასო K-თი, მაშინ სიაში ჩაამატეთ სახელი "GOGA", სხვა შემთხვევაში სიაში ჩაამატეთ სიტყვა "ლიდერი". დაპრინტეთ მიღებული სია.
 
 names = ["dato", "TATA", "data", "LUKA", "koka", "giorgi"]
-new_name = []
+new_list = []
 
-for i in names:
-    if i.islower() and i.startswith('d'):
-        new_name.append("NIKA")
-    elif i.isupper() or i.startswith('K'):
-        new_name.append("GOGA")
+for name in names:
+    if name == name.lower() and name[0] == "d":
+        new_list.append("NIKA")
+    elif name == name.upper() or name[0] == "K":
+        new_list.append("GOGA")
     else:
-        new_name.append("ლიდერი")
+        new_list.append("ლიდერი")
 
-print(new_name)
+print(new_list)
