@@ -1,0 +1,28 @@
+#car1 {
+    color: red;
+    font-size: 24px;
+}
+
+#car2 {
+    color: blue;
+    font-size: 26px;
+    background-color: yellow;
+}
+
+#car3 {
+    color: green;
+    font-size: 22px;
+    border: 2px solid black;
+}
+
+#car4 {
+    color: purple;
+    font-size: 28px;
+    background-color: lightgray;
+}
+
+#car5 {
+    color: orange;
+    font-size: 25px;
+    border: 2px dashed red;
+}
