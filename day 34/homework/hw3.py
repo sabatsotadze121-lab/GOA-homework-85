@@ -1,11 +1,13 @@
-def sum_of_even_elements():
+# 3) შექმენით ფუნქცია. შექმენით რიცხვებით სავსე სია, დაბეჭდეთ ამ სიის ყველა ლუწი ელემენტის ჯამი. გამოიყენე for ციკლი. გამოიძახეთ ფუნქცია.
+
+def aaa():
     numbers = [2, 5, 8, 11, 14, 7, 6]
     total = 0
 
     for num in numbers:
         if num % 2 == 0:
-            total += num
+            total = total + num
 
-    print("ლუწი ელემენტების ჯამია:", total)
+    print("ლუწი ელემენტების ჯამი : ", total)
 
-sum_of_even_elements()
+aaa()
