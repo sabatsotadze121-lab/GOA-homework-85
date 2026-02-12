@@ -1,3 +1,4 @@
+# 9) შექმენი ფუქნცია რომელიც მიიღებს რიცხვების სიას და დააბრუნებს მხოლოდ ლუწ რიცხვებს
 def even_numbers(numbers):
     result = []
     for num in numbers:
