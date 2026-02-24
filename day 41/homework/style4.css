@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+li:hover{
+    background-color: lightgray;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
