@@ -1,0 +1,13 @@
+.table-retro {
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: #333;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.table-retro th, .table-retro td {
+    padding: 15px 25px;
+    border: 4px outset rgba(255,255,255,0.5); /* Creates the 3D effect */
+    text-align: left;
+    font-size: 1.2em;
+}

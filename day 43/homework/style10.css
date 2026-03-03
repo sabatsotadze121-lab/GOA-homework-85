@@ -1,0 +1,45 @@
+ul {
+  list-style-type: none; 
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center; 
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  width: 15px; 
+  height: 15px; 
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.list-check li::before {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/5290/5290058.png'); 
+}
+.list-check li { color: #888; } /* რუხი ტექსტი ფოტოს მიხედვით */
+
+
+.list-x li::before {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/2723/2723639.png');
+}
+.list-x li { color: #888; }
+
+
+.list-square li::before {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/5822/5822082.png');
+  width: 20px; 
+  height: 20px;
+}
+.list-square li {
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 18px;
+}

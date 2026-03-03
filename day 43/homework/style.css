@@ -1,0 +1,28 @@
+.table-modern {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.table-modern thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table-modern th, .table-modern td {
+    padding: 12px 15px;
+}
+
+.table-modern tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-modern tbody tr.highlight {
+    color: #009879;
+    font-weight: bold;
+}
