@@ -1,0 +1,27 @@
+body{
+background:#1f1f1f;
+font-family:Arial;
+}
+
+.form4{
+width:400px;
+background:#3b91c6;
+padding:20px;
+border-radius:10px;
+margin:20px auto;
+}
+
+.form4 h3{
+color:white;
+}
+
+.form4 input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+}
+
+.form4 button{
+padding:8px 15px;
+}
