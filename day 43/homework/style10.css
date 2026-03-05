@@ -24,7 +24,7 @@ li::before {
 .list-check li::before {
   background-image: url('https://cdn-icons-png.flaticon.com/512/5290/5290058.png'); 
 }
-.list-check li { color: #888; } /* რუხი ტექსტი ფოტოს მიხედვით */
+.list-check li { color: #888; } 
 
 
 .list-x li::before {
