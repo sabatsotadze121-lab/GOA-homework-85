@@ -1,0 +1,10 @@
+.input2{
+    width:200px;
+    height:40px;
+    background-color:lightgray;
+
+    border-top:4px solid red;
+    border-right:4px dashed blue;
+    border-bottom:4px dotted green;
+    border-left:4px double purple;
+}
