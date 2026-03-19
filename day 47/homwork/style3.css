@@ -1,0 +1,7 @@
+.container3 {
+    display: flex;
+    width: 500px;
+    border: 2px solid green;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}

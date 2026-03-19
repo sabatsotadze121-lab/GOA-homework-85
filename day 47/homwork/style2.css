@@ -1,0 +1,15 @@
+.container-row {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+    padding: 10px;
+    margin-bottom: 20px;
+}

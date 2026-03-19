@@ -1,0 +1,9 @@
+.container7 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border: 2px solid brown;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}

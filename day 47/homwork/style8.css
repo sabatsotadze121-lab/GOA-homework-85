@@ -1,0 +1,9 @@
+.container8 {
+    display: flex;
+    height: 300px;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
