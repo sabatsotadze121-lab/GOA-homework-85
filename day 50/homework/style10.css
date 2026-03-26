@@ -1,0 +1,12 @@
+.container {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.box {
+  width: 120px;
+  height: 80px;
+  background-color: purple;
+}
