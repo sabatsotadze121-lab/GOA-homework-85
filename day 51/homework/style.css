@@ -1,0 +1,25 @@
+/*  align-self ეწერება ელემენტს რომელიც გვინდა რომ მხოლოდ ელემენტი  y ღერძზე გადავაადგიოთ 
+ */
+
+ 
+.parent{
+   width: 600px;
+    height: 600px;
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;       
+
+}
+
+.child{
+    width: 60px;
+    height: 60px;
+    background-color: purple;
+}
+
+.c1{
+    align-self: flex-end;
+}
