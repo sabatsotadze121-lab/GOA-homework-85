@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 400px;
+}
+
+.box {
+  flex-basis: 200px;
+  flex-shrink: 1;
+}
+
+.second {
+  flex-shrink: 0;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.one {
+  flex-basis: 150px;
+}
+
+.two {
+  flex-basis: 150px;
+}
+
+.three {
+  flex-basis: 150px;
+}

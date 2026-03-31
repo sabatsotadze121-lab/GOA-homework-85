@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  height: 100px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  background: red;
+}
+
+.third:hover {
+  flex-grow: 3;
+}

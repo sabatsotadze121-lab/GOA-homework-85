@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+button {
+  flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 1;
+}

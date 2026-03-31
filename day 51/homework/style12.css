@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  width: 400px;
+}
+
+.box {
+  flex-basis: 200px;
+}
+
+.one {
+  flex-shrink: 1;
+}
+
+.two {
+  flex-shrink: 2;
+}
+
+.three {
+  flex-shrink: 3;
+}

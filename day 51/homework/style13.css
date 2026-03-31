@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.box {
+  flex-basis: 300px;
+  flex-shrink: 0;
+}

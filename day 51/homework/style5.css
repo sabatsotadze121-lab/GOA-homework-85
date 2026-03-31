@@ -1,0 +1,16 @@
+.container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+
+    display: flex;
+}
+
+.box {
+  width: 100px;
+  border: 1px solid blue;
+}
+
+.grow {
+  flex-grow: 1;
+}
