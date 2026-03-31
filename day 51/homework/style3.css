@@ -1,0 +1,30 @@
+.container{
+    width: 400px;
+    height: 400px;
+    border: 3px solid rgb(170, 58, 58);
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;       
+
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(7, 151, 96);
+
+}
+
+.c1{
+    align-self: flex-end;
+
+}
+.c2{
+    align-self: flex-start;
+}
+
+.c3{
+    align-items: center;
+}
