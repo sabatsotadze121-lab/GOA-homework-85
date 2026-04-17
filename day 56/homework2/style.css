@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 900px;
+}
+
+
+.card {
+    flex: 1;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sedan {
+    background: #e38826;
+}
+
+.suv {
+    background: #006970;
+}
+
+.luxury {
+    background: #004241;
+}
+
+
+.card img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+
+button {
+    background: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    width: 140px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sedan button {
+    color: #e38826;
+}
+
+.suv button {
+    color: #006970;
+}
+
+.luxury button {
+    color: #004241;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}

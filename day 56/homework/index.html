@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | 3-column preview card component</title>
 
@@ -15,22 +16,54 @@
   </style>
 </head>
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+  <div class="container">
+    <div class="card">
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
+        
+        <div class="result">
+            <h3>Your Result</h3>
 
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
+            <div class="circle">
+                <h1>76</h1>
+                <p>of 100</p>
+            </div>
+
+            <h2>Great</h2>
+            <p class="aaa">
+                You scored higher than 65% of the people who have taken these tests.
+            </p>
+        </div>
+
+        
+        <div class="summary">
+            <h3>Summary</h3>
+
+            <div class="item reaction">
+                <span>⚡ Reaction</span>
+                <span>80 / 100</span>
+            </div>
+
+            <div class="item memory">
+                <span>🧠 Memory</span>
+                <span>92 / 100</span>
+            </div>
+
+            <div class="item verbal">
+                <span>💬 Verbal</span>
+                <span>61 / 100</span>
+            </div>
+
+            <div class="item visual">
+                <span>👁 Visual</span>
+                <span>73 / 100</span>
+            </div>
+
+            <button>Continue</button>
+        </div>
+
+    </div>
+</div>
+
   
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
 </body>
 </html>
