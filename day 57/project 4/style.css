@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+:root {
+  --Lightred: hsl(0, 100%, 67%);
+  --Orangeyyellow: hsl(39, 100%, 56%);
+  --Greenteal: hsl(166, 100%, 37%);
+  --Cobaltblue: hsl(234, 85%, 45%);
+
+  --Lightslateblue: hsl(252, 100%, 67%);
+  --Lightroyalblue: hsl(241, 81%, 54%);
+  --Violetblue: hsla(256, 72%, 46%, 1);
+  --Persianblue: hsla(241, 72%, 46%, 0);
+
+  --White: hsl(0, 0%, 100%);
+  --Paleblue: hsl(221, 100%, 96%);
+  --Lightlavender: hsl(241, 100%, 89%);
+  --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+@font-face {
+  font-family: HankenGrotesk;
+  src: url("fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 737px;
+  height: 512px;
+  background-color: var(--White);
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px 12px hsla(221, 100%, 96%, 0.6);
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(var(--Lightslateblue), var(--Lightroyalblue));
+  border-radius: 30px;
+  gap: 30px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  color: var(--Paleblue);
+  font-family: HankenGrotesk;
+  font-size: 1.5rem;
+  opacity: 0.75;
+  font-weight: 600;
+}
+
+.circle-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 0.7), hsla(241, 72%, 46%, 0));
+}
+
+.circle-header {
+  color: var(--White);
+  font-size: 4.5rem;
+  font-family: HankenGrotesk;
+  margin-bottom: -10px;
+}
+
+.circle-text {
+  font-family: HankenGrotesk;
+  color: var(--Paleblue);
+  opacity: 0.5;
+}
+
+.card-left-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.card-left-text {
+  color: var(--White);
+  font-family: HankenGrotesk;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.card-left-paragraph {
+  font-family: HankenGrotesk;
+  text-align: center;
+  color: var(--Paleblue);
+  opacity: 0.75;
+  width: 70%;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-right-header-box {
+  display: flex;
+  justify-content: flex-start;
+  width: 288px;
+}
+
+.card-right-header {
+  font-family: HankenGrotesk;
+  font-size: 1.5rem;
+  opacity: 0.75;
+  font-weight: 600;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.stats-box1,
+.stats-box2,
+.stats-box3,
+.stats-box4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  width: 288px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.stats-box1 { background-color: hsla(0, 100%, 67%, 0.1); }
+.stats-box2 { background-color: hsla(39, 100%, 56%, 0.1); }
+.stats-box3 { background-color: hsla(166, 100%, 37%, 0.1); }
+.stats-box4 { background-color: hsla(234, 85%, 45%, 0.1); }
+
+.stats-left {
+  display: flex;
+  align-items: center;
+}
+
+.stats-image {
+  margin-right: 10px;
+}
+
+.stats-title {
+  color: var(--Lightred);
+  font-family: HankenGrotesk;
+}
+
+.stats-title2 {
+  color: var(--Orangeyyellow);
+  font-family: HankenGrotesk;
+}
+
+.stats-title3 {
+  color: var(--Greenteal);
+  font-family: HankenGrotesk;
+}
+
+.stats-title4 {
+  color: var(--Cobaltblue);
+  font-family: HankenGrotesk;
+}
+
+.stats-results {
+  font-family: HankenGrotesk;
+  font-weight: 600;
+}
+
+.stats-span {
+  opacity: 0.4;
+}
+
+button {
+  width: 288px;
+  padding: 17px 0;
+  border: none;
+  background-color: var(--Darkgrayblue);
+  border-radius: 30px;
+  color: var(--White);
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-image: linear-gradient(var(--Lightslateblue), var(--Lightroyalblue));
+}
+
+@media (max-width: 600px) {
+  .card {
+    grid-template-columns: 1fr;
+    width: 375px;
+    height: 100%;
+    border-radius: 0;
+    gap: 10px;
+  }
+
+  .card-left {
+    height: 375px;
+    border-radius: 0;
+  }
+
+  .circle-box {
+    width: 140px;
+    height: 140px;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  .circle-header {
+    font-size: 3.5rem;
+  }
+
+  .circle-text {
+    font-size: 1rem;
+  }
+
+  .card-left-text {
+    font-size: 1.5rem;
+  }
+
+  .card-left-paragraph {
+    font-size: 1rem;
+  }
+
+  .card-right {
+    gap: 20px;
+    padding: 15px 0 30px;
+  }
+
+  .card-right-header {
+    font-size: 1.2rem;
+  }
+
+  .stats-box1,
+  .stats-box2,
+  .stats-box3,
+  .stats-box4,
+  button {
+    width: 315px;
+  }
+
+  .stats-title,
+  .stats-title2,
+  .stats-title3,
+  .stats-title4,
+  .stats-results {
+    font-size: 1rem;
+  }
+}
