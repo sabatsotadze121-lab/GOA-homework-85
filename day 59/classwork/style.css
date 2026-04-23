@@ -1,0 +1,22 @@
+
+.btn {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+}
+
+
+.btn1 {
+  position: relative;
+  top: 100px;   
+  left: 30px;   
+}
+
+
+.btn3 {
+  position: relative;
+  top: 30px;    
+  right: 20px;  
+}
+
+
