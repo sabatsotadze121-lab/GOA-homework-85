@@ -1,0 +1,14 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: gray;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  left: 40px;
+}

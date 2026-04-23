@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+  <div class="left">
+    <h1 class="logo">sneakers</h1>
+    
+    <div class="nav-links">
+      <a href="#">Collections</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+    <div class="nav-icons">
+      <img src="images/icon-cart.svg" alt="logo"/>
+      <img class="avatar" src="images/image-avatar.png" alt="avatar"/>
+    </div>
+</nav>
+
+  
+
+  <main class="container">
+
+    <section class="product-images">
+      <img class="main-img" src="images/image-product-1.jpg" alt="product"/>
+
+      <div class="thumbnails">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class= "chosen" >
+        <img src="images/image-product-2-thumbnail.jpg" alt="">
+        <img src="images/image-product-3-thumbnail.jpg" alt="">
+        <img src="images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="product-info">
+      <p class="company">SNEAKER COMPANY</p>
+
+      <h1>Fall Limited Edition Sneakers</h1>
+
+      <p class="description">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the wether can offer
+      </p>
+
+      <div class="price">
+        <span class="new-price">$125.00</span>
+        <span class="discount">50%</span>
+      </div>
+
+      <p class="old-price">$250.00</p>
+
+      <div class="cart-box">
+        <div class="qty">
+          <button>-</button>
+          <span>0</span>
+          <button>+</button>
+        </div>
+
+        <button class="add-btn">
+          <img src="./images/icon-cart.svg" alt=""> <p>Add to cart</p>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+
+</body>
+</html>
