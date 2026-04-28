@@ -1,20 +1,21 @@
 
 
 .card {
-  width: 300px;
+
+  width: 200px;
   position: relative;
 }
 
 .card img {
-  width: 100%;
+  width: 200px;
 
 }
 
 .label {
   position: absolute;
-  top: 10px;
+  top: -16px;
   right: 0px;
-  background: red;
+  background: rgb(247, 72, 72);
   color: white;
 
 }
