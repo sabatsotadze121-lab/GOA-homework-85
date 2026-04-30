@@ -1,7 +1,6 @@
 
 
 .card {
-
   width: 200px;
   position: relative;
 }
@@ -12,6 +11,7 @@
 }
 
 .label {
+  
   position: absolute;
   top: -16px;
   right: 0px;

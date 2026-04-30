@@ -1,0 +1,45 @@
+
+.green{
+
+    width:250px;
+    height:220px;
+    background:green;
+    position:absolute;
+
+
+    top:20px;
+    left:10px;
+
+    z-index:1;
+
+}
+
+.blue{
+
+    width:340px;
+    height:100px;
+    background:blue;
+
+
+    position:absolute;
+    top:20px;
+    left:60px;
+
+    z-index:2;
+
+}
+
+.red{
+
+    width:280px;
+    height:120px;
+    background:red;
+
+
+    position:absolute;
+    top:80px;
+    left:180px;
+    
+    z-index:3;
+
+}
